@@ -4,53 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhishek Reddy Malreddy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #f0f0f0, #d3d3d3);
+            background: linear-gradient(135deg, #f3f3f3, #e0e0e0);
             color: #333;
         }
         header {
-            background: #212121;
+            background: url('https://www.transparenttextures.com/patterns/debut-light.png') no-repeat center center;
+            background-size: cover;
             color: white;
             text-align: center;
-            padding: 50px 0;
-            font-size: 24px;
+            padding: 80px 0;
+            position: relative;
+            z-index: 1;
+        }
+        header::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: -1;
         }
         header h1 {
             color: #f0a500;
-            font-size: 48px;
+            font-size: 56px;
             margin: 0;
+            text-transform: uppercase;
+        }
+        header p {
+            font-size: 18px;
+            margin: 10px 0;
         }
         header a {
-            color: #f0f0f0;
+            color: white;
             margin: 0 10px;
             text-decoration: none;
             padding: 10px 20px;
             background-color: #f0a500;
             border-radius: 5px;
+            transition: background-color 0.3s ease;
         }
         header a:hover {
             background-color: #ffbf1f;
         }
         section {
-            margin: 40px auto;
-            padding: 20px;
-            max-width: 800px;
+            margin: 60px auto;
+            padding: 30px;
+            max-width: 900px;
             background-color: white;
             border-radius: 12px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.12);
         }
         h2 {
             color: #333;
-            border-bottom: 2px solid #f0a500;
+            border-bottom: 3px solid #f0a500;
             padding-bottom: 10px;
+            font-size: 28px;
         }
         p, ul {
-            line-height: 1.6;
+            line-height: 1.8;
             font-size: 18px;
+            margin: 10px 0;
         }
         ul {
             list-style: none;
@@ -61,14 +87,15 @@
         }
         footer {
             text-align: center;
-            margin-top: 50px;
-            padding: 30px;
+            margin-top: 60px;
+            padding: 40px;
             background-color: #212121;
             color: white;
         }
         footer a {
             color: #f0a500;
             text-decoration: none;
+            transition: color 0.3s ease;
         }
         footer a:hover {
             color: #ffbf1f;
