@@ -1,152 +1,153 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Abhishek Reddy Malreddy",
+    "email": "amalredd@andrew.cmu.edu",
+    "phone": "+1 479-283-7033",
+    "website": "https://www.abhishekreddy.one",
+    "summary": "Master of Science in Artificial Intelligence Engineering (Materials Science and Engineering) at Carnegie Mellon University",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Pittsburgh",
       "countryCode": "US",
-      "region": ""
+      "region": "PA"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "abhishekredy18",
+        "url": "https://github.com/abhishekredy18"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "abhishekmalreddy",
+        "url": "https://www.linkedin.com/in/abhishekmalreddy/"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "KNUhL4oAAAAJ",
+        "url": "https://scholar.google.com/citations?user=KNUhL4oAAAAJ&hl=en"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Mobility Research (IIIT-H Affiliated)",
+      "position": "Research Assistant",
+      "website": "",
+      "startDate": "May 2023",
+      "endDate": "June 2024",
+      "summary": "",
+      "highlights": [
+        "Developed the IDD-AW dataset (5,000 RGB-NIR images) for semantic segmentation under adverse weather.",
+        "Introduced the “Safe mIoU” metric to better penalize safety-critical misclassifications.",
+        "Simulated congested traffic in SUMO and trained reinforcement-learning agents to optimize emergency vehicle routes."
+      ]
+    },
+    {
+      "company": "Genpact India",
+      "position": "Management Trainee",
+      "website": "",
+      "startDate": "August 2022",
+      "endDate": "April 2023",
+      "summary": "",
+      "highlights": [
+        "Optimized incident database workflows, improving SLA compliance and resolution speed.",
+        "Collaborated cross-functionally to analyze trends and streamline incident-management processes."
+      ]
+    },
+    {
+      "company": "Pebble DLT",
+      "position": "Developer",
+      "website": "",
+      "startDate": "May 2020",
+      "endDate": "October 2020",
+      "summary": "",
+      "highlights": [
+        "Built a decentralized transaction management system with public-key identifiers and timestamp propagation.",
+        "Engineered a configurable simulation framework for real-time transaction queuing and processing."
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
+      "institution": "Carnegie Mellon University",
+      "area": "Master of Science in Artificial Intelligence Engineering (Materials Science and Engineering)",
+      "studyType": "Master of Science",
       "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "endDate": "Dec 2025",
+      "gpa": "4.0/4.0",
+      "courses": [
+        "Computer Vision",
+        "Systems and Tool Chains for AI Engineers",
+        "Machine Learning and AI for Engineers",
+        "Learning for 3D Vision",
+        "Introduction to Deep Learning",
+        "Methods of Computational Materials Science"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
+      "institution": "National Institute of Technology Calicut",
+      "area": "Bachelor of Technology in Mechanical Engineering",
+      "studyType": "Bachelor of Technology",
       "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "endDate": "May 2022",
+      "gpa": "",
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": ["Python", "C", "C++", "SQL", "Git"]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "",
+      "keywords": ["PyTorch", "PyTorch3D", "TensorFlow", "Keras", "PySpark", "Transformers", "Reinforcement Learning"]
+    },
+    {
+      "name": "Software/Technologies",
+      "level": "",
+      "keywords": ["AWS", "GCP", "Apache Spark", "Docker", "Eclipse SUMO", "Data Modeling", "LaTeX"]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Idd-AW: A Benchmark for Safe and Robust Segmentation of Drive Scenes in Unstructured Traffic and Adverse Weather",
+      "publisher": "IEEE/CVF WACV",
+      "releaseDate": "Jan 2024",
+      "website": "",
+      "summary": ""
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "presentations": [],
+  "teaching": [],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
+      "name": "TrackAnything: Multi-modal Promptable Tracking in 3D",
+      "category": "Academic Project",
+      "date": "Jan 2025 – Apr 2025",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "Generated 3D bounding boxes from text prompts and video using Argoverse 2 and a transformer-based model. Fused LiDAR, map and pose data to improve scenario mining in autonomous driving. Enhanced urban object-tracking accuracy for downstream safety analyses."
+    },
+    {
+      "name": "Real-time Pedestrian Detection and Safety Alert System",
+      "category": "Academic Project",
+      "date": "Jan 2025 – Apr 2025",
+      "url": "",
+      "description": "Built an edge-AI safety system on Jetson Nano using YOLO & MobileNet SSD trained on CityPersons/Caltech. Optimized inference with quantization, pruning, and TensorRT via DeepStream. Implemented audio-visual alerts and flashing lights for real-time pedestrian/bicycle safety."
+    },
+    {
+      "name": "FIFA Player Analysis and Performance Prediction",
+      "category": "Academic Project",
+      "date": "Sep 2024 – Dec 2024",
+      "url": "",
+      "description": "Unified multi-year FIFA player data in PostgreSQL, enabling PySpark-based analytics. Developed GBT, RF, and MLP models, reducing RMSE by 30% in performance predictions."
     }
   ]
 }
