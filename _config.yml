@@ -13,7 +13,8 @@ title: "Abhishek Reddy Malreddy"
 title_separator: "-"
 name: &name "Abhishek Reddy Malreddy"
 description: &description "MS in Artificial Intelligence Engineering at Carnegie Mellon University, specializing in materials science and engineering."
-url: "https://www.abhishekreddy.one" # your custom domain
+# url: "https://www.abhishekreddy.one" # your custom domain
+url: "https://abhishekredy18.github.io"
 baseurl: "" # leave blank for root
 repository: "abhishekredy18/abhishekredy18.github.io"
 
