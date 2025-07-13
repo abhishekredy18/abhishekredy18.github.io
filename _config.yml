@@ -13,7 +13,8 @@ title: "Abhishek Reddy Malreddy"
 title_separator: "-"
 name: &name "Abhishek Reddy Malreddy"
 description: &description "MS in Artificial Intelligence Engineering at Carnegie Mellon University, specializing in materials science and engineering."
-url: "https://abhishekredy18.github.io" # your custom domain
+# url: "https://www.abhishekreddy.one" # your custom domain
+url: "https://abhishekredy18.github.io"
 baseurl: "" # leave blank for root
 repository: "abhishekredy18/abhishekredy18.github.io"
 
@@ -22,7 +23,7 @@ author:
   avatar: "profile.png"
   name: "Abhishek Reddy Malreddy"
   pronouns:
-  bio: "I’m a Master’s student in AI Engineering at Carnegie Mellon with a background in Materials Science, Autonomous Navigation, and Mechanical Engineering. I’m passionate about perception and prediction and thrive on collaborating across disciplines to build AI solutions that solve real-world problems, such as improving urban safety with edge-deployed vision systems or accelerating materials discovery through data-driven models. I enjoy creating systems that work reliably in practice and deliver measurable impact."
+  bio: "Grad student in AI Engineering (Materials Science) at Carnegie Mellon University" # Keeping original bio as it seems descriptive
   location: "Pittsburgh, PA"
   employer: "Carnegie Mellon University"
   uri: "https://www.abhishekreddy.one"
