@@ -22,28 +22,6 @@ author_profile: true
     border: none;
   }
   
-  .download-link {
-    text-align: center;
-    margin: 20px 0;
-  }
-  
-  .download-btn {
-    display: inline-block;
-    background-color: #007cba;
-    color: white;
-    padding: 12px 24px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-  }
-  
-  .download-btn:hover {
-    background-color: #005a87;
-    color: white;
-    text-decoration: none;
-  }
-  
   .fallback-message {
     text-align: center;
     padding: 20px;
@@ -55,10 +33,6 @@ author_profile: true
 
 ## My Resume
 
-<div class="download-link">
-  <a href="{{ base_path }}/files/Abhishek Malreddy.pdf" class="download-btn" download>📄 Download Resume (PDF)</a>
-</div>
-
 <div class="pdf-container">
   <embed src="{{ base_path }}/files/Abhishek Malreddy.pdf" type="application/pdf" class="pdf-embed">
   
@@ -66,8 +40,4 @@ author_profile: true
     <p><strong>Cannot display PDF?</strong></p>
     <p>Your browser doesn't support embedded PDFs. Please <a href="{{ base_path }}/files/Abhishek Malreddy.pdf" download>download the resume</a> to view it.</p>
   </div>
-</div>
-
-<div class="download-link">
-  <a href="{{ base_path }}/files/Abhishek Malreddy.pdf" class="download-btn" download>📄 Download Resume (PDF)</a>
 </div>
