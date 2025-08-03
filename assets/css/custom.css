@@ -7,3 +7,10 @@
   -ms-hyphens: auto;
   hyphens: auto;
 }
+
+
+/* Hide the default footer sections */
+.page__footer .page__footer-follow,
+.page__footer .page__footer-copyright {
+  display: none !important;
+}
