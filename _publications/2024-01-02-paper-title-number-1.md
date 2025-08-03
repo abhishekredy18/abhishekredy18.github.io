@@ -2,13 +2,13 @@
 title: "IDD-AW: A Benchmark for Safe and Robust Segmentation of Drive Scenes in Unstructured Traffic and Adverse Weather"
 collection: publications
 category: conference
-permalink: /publication/2024-01-03-idd-aw-benchmark-safe-robust-segmentation-of-drive-scenes
+permalink: /publication/2024-01-02-idd-aw-benchmark-safe-robust-segmentation-of-drive-scenes
 excerpt: "Benchmark dataset and safety-aware metric (Safe mIoU) for semantic segmentation in adverse weather and unstructured traffic; presented at WACV 2024."
-date: 2024-01-03
+date: 2024-01-02
 venue: "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2024)"
-slidesurl: "https://iddaw.github.io/static/pdfs/WACV_IDD-AW.pdf"
-paperurl: "https://openaccess.thecvf.com/content/WACV2024/papers/Shaik_IDD-AW_A_Benchmark_for_Safe_and_Robust_Segmentation_of_Drive_WACV_2024_paper.pdf"
-suppurl: "https://openaccess.thecvf.com/content/WACV2024/supplemental/Shaik_IDD-AW_A_Benchmark_WACV_2024_supplemental.pdf"
+slidesurl: "http://abhishekredy18.github.io/files/WACV_IDD-AW.pdf"
+paperurl: "http://abhishekredy18.github.io/files/IDDAW_WACV24_final.pdf"
+suppurl: "http://abhishekredy18.github.io/files/IDDAW_WACV24_supp.pdf"
 codeurl: "https://github.com/Furqan7007/IDDAW_kit"
 arxivurl: "https://arxiv.org/abs/2311.14459"
 citation: "Furqan Ahmed Shaik, Abhishek Reddy, Nikhil Reddy Billa, Kunal Chaudhary, Sunny Manchanda, Girish Varma. (2024). \"IDD-AW: A Benchmark for Safe and Robust Segmentation of Drive Scenes in Unstructured Traffic and Adverse Weather.\" <i>Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</i>. pp. 4614--4623."
