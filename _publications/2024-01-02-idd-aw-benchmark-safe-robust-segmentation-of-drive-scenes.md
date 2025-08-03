@@ -1,7 +1,7 @@
 ---
 title: "IDD-AW: A Benchmark for Safe and Robust Segmentation of Drive Scenes in Unstructured Traffic and Adverse Weather"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/2024-01-02-idd-aw-benchmark-safe-robust-segmentation-of-drive-scenes
 excerpt: "Benchmark dataset and safety-aware metric (Safe mIoU) for semantic segmentation in adverse weather and unstructured traffic; presented at WACV 2024."
 date: 2024-01-02
