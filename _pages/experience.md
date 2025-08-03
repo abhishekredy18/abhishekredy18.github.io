@@ -7,71 +7,60 @@ author_profile: true
 
 {% include base_path %}
 
-## Work Experience
-
-### AI Engineer Intern
-**[Company Name]** - [Location]  
-*[Start Date] - [End Date]*
-
-* Description of your work and achievements
-* Key technologies used
-* Impact/results achieved
+## Professional Experience
 
 ### Research Assistant
-**Carnegie Mellon University** - Pittsburgh, PA  
-*[Start Date] - [End Date]*
+**Carnegie Mellon University - AI Engineering** | *Current*
+- Conducting research in computer vision and machine learning
+- Developing AI solutions for real-world applications
+- Working on perception and prediction systems
 
-* Research focus on perception and prediction
-* Work on edge-deployed vision systems for urban safety
-* Collaboration across disciplines on AI solutions
+### Materials Science & Engineering Background
+**Previous Research Experience**
+- Materials science research with focus on data-driven approaches
+- Experience in autonomous navigation systems
+- Mechanical engineering applications
 
-### Previous Experience
-**[Company/Organization Name]** - [Location]  
-*[Start Date] - [End Date]*
-
-* Description of role and responsibilities
-* Key accomplishments
-* Technologies and skills utilized
-
----
-
-## Research Experience
-
-### Graduate Research
-**Carnegie Mellon University** - AI Engineering  
-*[Start Date] - Present*
-
-* Focus areas: Perception, Prediction, Computer Vision
-* Working on autonomous navigation systems
-* Materials discovery through data-driven models
-
-### Undergraduate Research
-**[University Name]** - Materials Science/Mechanical Engineering  
-*[Start Date] - [End Date]*
-
-* Research in materials science applications
-* Experience with autonomous navigation systems
-* Cross-disciplinary collaboration
+### Research Interests
+- **Computer Vision**: Object detection, segmentation, scene understanding
+- **Machine Learning**: Deep learning, predictive modeling
+- **AI Engineering**: Edge deployment, system optimization
+- **Autonomous Systems**: Navigation, perception, decision making
+- **Materials Discovery**: Data-driven materials research
 
 ---
 
-## Projects & Achievements
+## Education
 
-### Edge-Deployed Vision Systems
-* Developed AI solutions for improving urban safety
-* Implemented computer vision algorithms for real-time processing
-* Deployed systems with measurable impact on safety metrics
+### Master of Science in AI Engineering
+**Carnegie Mellon University** | *In Progress*
+- Focus on computer vision and machine learning
+- Advanced coursework in AI systems and applications
 
-### Materials Discovery AI
-* Built data-driven models for accelerating materials discovery
-* Applied machine learning to materials science problems
-* Created systems that work reliably in practice
+### Materials Science & Engineering Background
+- Strong foundation in materials science
+- Experience with data analysis and modeling
+- Mechanical engineering principles
+
+---
+
+## Key Projects & Research
+
+### Urban Safety Vision Systems
+- Developing edge-deployed computer vision systems
+- Focus on improving urban safety through AI
+- Real-time processing and deployment considerations
+
+### Materials Discovery Research
+- Data-driven approaches to materials discovery
+- Accelerating research through machine learning
+- Cross-disciplinary collaboration
 
 ### Autonomous Navigation
-* Experience in perception and prediction for autonomous systems
-* Developed algorithms for real-world navigation challenges
-* Focus on robust, practical solutions
+- Perception systems for autonomous vehicles
+- Navigation algorithms and implementation
+- Real-world testing and validation
 
 ---
 
-*Note: Please update this page with your specific experience details, company names, dates, and achievements.*
+*For detailed project descriptions, please visit the [Projects](/portfolio/) section.*

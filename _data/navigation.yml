@@ -10,21 +10,21 @@
 main:
   - title: "About"
     url: /
-
-  - title: "Publications"
-    url: /publications/
-
-  - title: "Projects"
-    url: /portfolio/
     
   - title: "Experience"
     url: /experience/
-        
+    
   - title: "Skills"
     url: /skills/
     
-  - title: "CV"
-    url: /cv/
+  - title: "Projects"
+    url: /portfolio/
     
+  - title: "Publications"
+    url: /publications/
+        
   - title: "Resume"
     url: /resume/
+    
+  - title: "Blog"
+    url: /year-archive/

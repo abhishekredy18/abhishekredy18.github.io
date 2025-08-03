@@ -7,101 +7,81 @@ author_profile: true
 
 {% include base_path %}
 
-## Programming Languages
+## Technical Skills
 
-**Primary:**
-* Python
-* C++
-* MATLAB
+### Programming Languages
 
-**Secondary:**
-* JavaScript
-* Java
-* R
+- **Python** - Primary language for AI/ML development
+- **C/C++** - System programming and performance optimization
+- **MATLAB** - Data analysis and modeling
+- **R** - Statistical analysis and data science
+- **JavaScript** - Web development and visualization
+- **SQL** - Database management and queries
 
----
+### Machine Learning & AI
 
-## AI & Machine Learning
+- **Deep Learning Frameworks**: TensorFlow, PyTorch, Keras
+- **Computer Vision**: OpenCV, PIL, scikit-image
+- **Machine Learning**: scikit-learn, pandas, numpy
+- **Data Science**: Jupyter, matplotlib, seaborn, plotly
+- **Model Deployment**: Docker, Flask, FastAPI
 
-**Frameworks & Libraries:**
-* PyTorch
-* TensorFlow
-* scikit-learn
-* OpenCV
-* NumPy/Pandas
+### Computer Vision Specializations
 
-**Specializations:**
-* Computer Vision
-* Perception Systems
-* Predictive Modeling
-* Deep Learning
-* Edge AI Deployment
+- **Object Detection & Segmentation**
+- **Image Processing & Analysis**
+- **Scene Understanding**
+- **Real-time Vision Systems**
+- **Edge Deployment Optimization**
 
----
+### Development Tools & Platforms
 
-## Autonomous Systems
+- **Version Control**: Git, GitHub
+- **Development Environments**: VS Code, PyCharm, Jupyter
+- **Cloud Platforms**: AWS, Google Cloud Platform
+- **Containerization**: Docker, Kubernetes
+- **CI/CD**: GitHub Actions, Jenkins
 
-**Technologies:**
-* ROS (Robot Operating System)
-* SLAM (Simultaneous Localization and Mapping)
-* Path Planning Algorithms
-* Sensor Fusion
-* Real-time Processing
+### Research & Analysis
 
-**Applications:**
-* Autonomous Navigation
-* Perception and Prediction
-* Urban Safety Systems
-* Edge-deployed Vision Systems
+- **Experimental Design**
+- **Statistical Analysis**
+- **Data Visualization**
+- **Technical Writing**
+- **Literature Review & Synthesis**
 
 ---
 
-## Materials Science & Engineering
+## Domain Expertise
 
-**Software & Tools:**
-* ANSYS
-* SolidWorks
-* COMSOL Multiphysics
-* Materials Studio
-* OriginPro
+### AI Engineering
+- End-to-end AI system development
+- Model optimization for production
+- Edge computing and deployment
+- Performance monitoring and evaluation
 
-**Expertise:**
-* Materials Discovery
-* Data-driven Materials Design
-* Computational Materials Science
-* Mechanical Engineering Principles
+### Materials Science
+- Materials characterization and analysis
+- Data-driven materials discovery
+- Computational materials science
+- Materials property prediction
 
----
-
-## Development & Tools
-
-**Version Control:**
-* Git/GitHub
-* GitLab
-
-**Development Environment:**
-* Linux/Unix
-* Docker
-* Jupyter Notebooks
-* VS Code
-
-**Cloud & Deployment:**
-* AWS
-* Google Cloud Platform
-* Edge Computing
-* Real-time Systems
+### Autonomous Systems
+- Navigation algorithms
+- Sensor fusion and perception
+- Decision-making systems
+- Real-time processing
 
 ---
 
 ## Soft Skills
 
-* Cross-disciplinary Collaboration
-* Problem-solving
-* Research & Development
-* Technical Communication
-* Project Management
-* Systems Thinking
+- **Problem Solving**: Analytical thinking and creative solution development
+- **Collaboration**: Cross-disciplinary team work and communication
+- **Project Management**: Research planning and execution
+- **Technical Communication**: Documentation and presentation skills
+- **Continuous Learning**: Staying current with AI/ML advancements
 
 ---
 
-*This skills section reflects experience in AI Engineering, Materials Science, and Autonomous Systems. Update with your specific technical proficiencies and certifications.*
+*For examples of these skills in action, please check out my [Projects](/portfolio/) and [Publications](/publications/).*
