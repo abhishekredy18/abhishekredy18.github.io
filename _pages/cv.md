@@ -9,52 +9,25 @@ redirect_from:
 
 {% include base_path %}
 
----
-layout: archive
-title: "CV"
-permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
----
-
-{% include base_path %}
-
 Education
 ======
-* M.S. in AI Engineering, Carnegie Mellon University, 2025 (expected)
-* B.S. in Materials Science, [University Name], [Year]
-* B.S. in Mechanical Engineering, [University Name], [Year]
+* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. in Jekyll, GitHub University, 2014
+* B.S. in GitHub, GitHub University, 2012
 
 Work experience
 ======
-* Current: Graduate Student
-  * Carnegie Mellon University
-  * Focus: Perception and prediction, AI Engineering
-  * Research on edge-deployed vision systems and urban safety
+* Spring 2024: Academic Pages Collaborator
+  * GitHub University
+  * Duties includes: Updates and improvements to template
+  * Supervisor: The Users
 
-* [Previous Role]: [Position Title]
-  * [Company/Organization]
-  * [Responsibilities and achievements]
-  * [Key technologies and impact]
+* Fall 2015: Research Assistant
+  * GitHub University
+  * Duties included: Merging pull requests
+  * Supervisor: Professor Hub
 
-Research Experience
-======
-* Graduate Research in AI Engineering
-  * Carnegie Mellon University
-  * Focus areas: Computer vision, autonomous navigation, materials discovery
-  * Cross-disciplinary collaboration on AI solutions
-
-Skills
-======
-* Programming: Python, C++, MATLAB, JavaScript
-* AI/ML: PyTorch, TensorFlow, OpenCV, scikit-learn
-* Autonomous Systems: ROS, SLAM, sensor fusion
-* Materials Science: ANSYS, SolidWorks, computational materials
-* Tools: Git, Docker, Linux, cloud platforms
-
-Publications
-======
+* Summer 2015: Research Assistant
   * GitHub University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
