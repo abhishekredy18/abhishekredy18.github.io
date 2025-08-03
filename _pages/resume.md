@@ -35,9 +35,4 @@ author_profile: true
 
 <div class="pdf-container">
   <embed src="{{ base_path }}/files/Abhishek Malreddy.pdf" type="application/pdf" class="pdf-embed">
-  
-  <div class="fallback-message">
-    <p><strong>Cannot display PDF?</strong></p>
-    <p>Your browser doesn't support embedded PDFs.</p>
-  </div>
 </div>
