@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale: "en-US"
 site_theme: "default"
-title: "Abhishek Reddy Malreddy"
+title: "About Me"
 title_separator: "-"
 name: &name "Abhishek Reddy Malreddy"
 description: &description "MS in Artificial Intelligence Engineering at Carnegie Mellon University, specializing in materials science and engineering."
