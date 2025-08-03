@@ -38,6 +38,6 @@ author_profile: true
   
   <div class="fallback-message">
     <p><strong>Cannot display PDF?</strong></p>
-    <p>Your browser doesn't support embedded PDFs. Please <a href="{{ base_path }}/files/Abhishek Malreddy.pdf" download>download the resume</a> to view it.</p>
+    <p>Your browser doesn't support embedded PDFs.</p>
   </div>
 </div>
