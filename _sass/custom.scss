@@ -1,0 +1,5 @@
+// Hide the default footer elements from Minimal Mistakes
+.page__footer-follow:first-of-type,
+.page__footer-powered-by {
+  display: none !important;
+}
