@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDD-AW Project - Abhishek Reddy Malreddy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    <a href="projects.html" class="back-link">← Back to Projects</a>
+
+    <h1>IDD-AW: A Benchmark for Safe and Robust Segmentation of Drive Scenes in Unstructured Traffic and Adverse Weather
+    </h1>
+
+    <div class="content-section">
+        <span class="date">May 2023 – Jun 2024 | Published at WACV 2024</span>
+        <p class="project-links">
+            <a href="https://iddaw.github.io/" target="_blank" rel="noopener noreferrer">🔗 Project Website</a> |
+            <a href="https://scholar.google.com/citations?user=KNUhL4oAAAAJ" target="_blank"
+                rel="noopener noreferrer">📄 Google Scholar</a>
+        </p>
+    </div>
+
+    <div class="content-section">
+        <h2>Abstract</h2>
+        <p>
+            Large-scale deployment of fully autonomous vehicles requires a very high degree of robustness to
+            unstructured traffic, weather conditions, and should prevent unsafe mispredictions. While there are
+            several datasets and benchmarks focusing on segmentation for drive scenes, they are not specifically
+            focused on safety and robustness issues.
+        </p>
+        <p>
+            We introduce the <strong>IDD-AW dataset</strong>, which provides 5000 pairs of high-quality images with
+            pixel-level annotations, captured under rain, fog, low light, and snow in unstructured driving conditions.
+            As compared to other adverse weather datasets, we provide:
+        </p>
+        <ul>
+            <li>More annotated images</li>
+            <li>Paired Near-Infrared (NIR) image for each frame</li>
+            <li>Larger label set with a 4-level label hierarchy to capture unstructured traffic conditions</li>
+        </ul>
+        <p>
+            We benchmark state-of-the-art models for semantic segmentation in IDD-AW. We also propose a new metric
+            called <strong>"Safe mean Intersection over Union (Safe mIoU)"</strong> for hierarchical datasets which
+            penalizes dangerous mispredictions that are not captured in the traditional definition of mean Intersection
+            over Union (mIoU). The results show that IDD-AW is one of the most challenging datasets to date for these
+            tasks.
+        </p>
+    </div>
+
+    <div class="content-section">
+        <h2>Dataset Summary</h2>
+        <p>
+            IDD-AW is a groundbreaking dataset designed to address the challenges of autonomous driving in adverse
+            weather conditions and unstructured environments. While existing datasets have primarily focused on
+            well-organized, controlled settings, IDD-AW takes a different approach by capturing the complexities of
+            real-world driving scenarios. The dataset is particularly unique for its focus on adverse weather conditions
+            like rain, fog, snow and lowlight, collected in cities all across India.
+        </p>
+    </div>
+
+    <div class="content-section">
+        <h2>Key Features</h2>
+        <ul>
+            <li>
+                <strong>Diverse Geographical Coverage:</strong> IDD-AW is collected across various states and terrains
+                of India, from the highways of Hyderabad to the snowy hills of Manali and the foggy roads of Delhi and
+                Ooty encompassing a range of road types, traffic densities, and adverse weather conditions like rain,
+                fog, snow and lowlight.
+            </li>
+            <li>
+                <strong>Rich Annotations:</strong> The dataset includes both NIR and RGB paired components for each
+                image and annotated for semantic and instance segmentation.
+            </li>
+            <li>
+                <strong>High-Quality Data:</strong> The dataset is meticulously curated, with high-resolution RGB and
+                NIR camera sensors capturing over 1 million frames. However, through thorough inspection and high
+                quality checks, the final dataset has shortlisted 5000 RGB-NIR image pairs.
+            </li>
+            <li>
+                <strong>Unique Object Categories:</strong> Unlike other datasets that often generalize objects into
+                broad categories, IDD-AW provides a more nuanced classification, including unique vehicle types and
+                pedestrian behaviors commonly seen in unstructured environments and adverse weather conditions.
+            </li>
+        </ul>
+    </div>
+
+    <div class="content-section">
+        <h2>My Contributions</h2>
+        <ul>
+            <li>Developed the large-scale IDD-AW dataset (5000 RGB-NIR images) for semantic understanding of Indian
+                driving scenes under adverse weather</li>
+            <li>Introduced the novel "Safe mIoU" metric to enhance safety evaluation of segmentation models by
+                penalizing critical misclassifications overlooked by traditional mIoU</li>
+            <li>Built SB3-based reinforcement learning models in SUMO to optimize lane selection and vehicle-to-vehicle
+                communication, reducing emergency vehicle traversal times and surpassing human traffic strategies</li>
+            <li>Published research at <strong>WACV 2024</strong></li>
+        </ul>
+    </div>
+
+    <div class="content-section">
+        <h2>Publication</h2>
+        <p>
+            <strong>"IDD-AW: A Benchmark for Safe and Robust Segmentation of Drive Scenes in Unstructured Traffic
+                and Adverse Weather"</strong><br>
+            <em>Winter Conference on Applications of Computer Vision (WACV), January 2024</em>
+        </p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedestrian Detection Project - Abhishek Reddy Malreddy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    <a href="projects.html" class="back-link">← Back to Projects</a>
+
+    <h1>Real-time Pedestrian Detection and Safety Alert System</h1>
+
+    <div class="content-section">
+        <span class="date">Jan 2025 – Apr 2025 | Carnegie Mellon University</span>
+        <span class="project-tech">Edge AI • YOLO • NVIDIA Jetson • Real-time Systems</span>
+    </div>
+
+    <div class="content-section">
+        <h2>Project Overview</h2>
+        <p>
+            Designed and deployed a real-time pedestrian detection and safety alert system using NVIDIA Jetson Nano
+            for edge AI inference. The system provides intelligent safety alerts for urban traffic scenarios,
+            triggering warnings when pedestrians enter roads during restricted signals or when vehicles approach
+            at unsafe speeds.
+        </p>
+    </div>
+
+    <div class="content-section">
+        <h2>System Architecture</h2>
+        <ul>
+            <li><strong>Detection Models:</strong> Implemented and compared YOLO and MobileNet SSD architectures for
+                pedestrian detection</li>
+            <li><strong>Training Data:</strong> Models trained on CityPersons and Caltech pedestrian datasets for
+                robust performance in urban environments</li>
+            <li><strong>Edge Deployment:</strong> Optimized for NVIDIA Jetson Nano using TensorRT for real-time
+                inference on resource-constrained hardware</li>
+            <li><strong>Streaming Pipeline:</strong> Leveraged DeepStream SDK for efficient video processing and
+                multi-stream support</li>
+        </ul>
+    </div>
+
+    <div class="content-section">
+        <h2>Optimization Techniques</h2>
+        <p>
+            To achieve real-time performance on edge devices, implemented several optimization strategies:
+        </p>
+        <ul>
+            <li><strong>Model Quantization:</strong> Reduced model precision to INT8 while maintaining detection
+                accuracy</li>
+            <li><strong>Network Pruning:</strong> Removed redundant parameters to decrease model size and inference
+                time</li>
+            <li><strong>TensorRT Acceleration:</strong> Utilized NVIDIA's TensorRT for optimized inference on Jetson
+                hardware</li>
+            <li><strong>Pipeline Optimization:</strong> Efficient frame batching and processing using DeepStream</li>
+        </ul>
+    </div>
+
+    <div class="content-section">
+        <h2>Safety Alert Features</h2>
+        <ul>
+            <li><strong>Pedestrian Signal Violation:</strong> Triggers audio-visual alerts when pedestrians enter
+                the road during restricted (red) signals</li>
+            <li><strong>Speeding Vehicle Detection:</strong> Flashes warning signals for vehicles approaching at
+                unsafe speeds during red lights</li>
+            <li><strong>Real-time Processing:</strong> Achieves low-latency detection and alerting for immediate
+                safety intervention</li>
+            <li><strong>Multi-camera Support:</strong> Capable of processing multiple camera feeds simultaneously</li>
+        </ul>
+    </div>
+
+    <div class="content-section">
+        <h2>Technologies Used</h2>
+        <div class="skills-grid">
+            <div class="skill-item">Python</div>
+            <div class="skill-item">YOLO</div>
+            <div class="skill-item">MobileNet SSD</div>
+            <div class="skill-item">TensorRT</div>
+            <div class="skill-item">NVIDIA Jetson</div>
+            <div class="skill-item">DeepStream</div>
+            <div class="skill-item">OpenCV</div>
+            <div class="skill-item">Edge AI</div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

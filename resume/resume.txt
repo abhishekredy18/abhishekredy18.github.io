@@ -1,0 +1,69 @@
+ABHISHEK REDDY MALREDDY
++1 479-329-4842 | linkedin.com/in/abhishekmalreddy/ | abhishekreddym18@gmail.com
+EDUCATION​
+CARNEGIE MELLON UNIVERSITY
+GPA: 4.0/4.0​
+Pittsburgh, PA
+Master of Science in Artificial Intelligence Engineering - Materials Science and Engineering​
+Dec 2025
+Selected Coursework: Computer Vision, Systems and Tool Chains for AI Engineers, Trustworthy AI, Machine Learning,
+Learning for 3D Vision, Deep Learning, Methods of Computational Materials Science.
+NATIONAL INSTITUTE OF TECHNOLOGY CALICUT​
+Calicut, India
+Bachelor of Technology in Mechanical Engineering​
+May 2022
+SKILLS
+Programming: Python, SQL, Git, C, C++, Golang.
+Machine Learning: PyTorch, PyTorch3D, TensorFlow, Pyspark, Transformers, Reinforcement Learning, GNNs, LLMs, RAG.
+Software:Apache Spark, FastAPI, PostgreSQL, Vector DB, AWS, GCP, Docker, LaTeX.
+PROFESSIONAL EXPERIENCE
+Remote, USA
+VIGILANT INC.​
+Artificial Intelligence Engineering Intern​
+Jun 2025 – Aug 2025
+●​ Designed and deployed a FastAPI microservice for the GENIE ML-Deduplicator, enabling real-time processing of incoming
+alerts through ingestion, deduplication, and health monitoring endpoints.
+●​ Built a multi-stage deduplication pipeline combining static filters, transformer embeddings, DBSCAN clustering, and
+semantic similarity checks, integrated with Postgres, pgvector, and PostGIS to ensure high-quality, unique alerts.
+●​ Automated embedding workflows with Hugging Face models and containerized the system with a multi-stage Dockerfile,
+delivering reproducible, cloud-ready deployments for scalable production use.
+MOBILITY RESEARCH (IIIT-H Affiliated)
+​
+Hyderabad, India
+Research Assistant Advisor: Dr. Girish Varma​
+May 2023 – Jun 2024
+●​ IDD-AW : Robust Semantic Segmentation for Autonomous Driving in Adverse Conditions:
+○​ Developed the large-scale IDD-AW dataset (5000 RGB-NIR images) for semantic understanding of Indian driving
+scenes under adverse weather (rain, fog, snow, lowlight).
+○​ Introduced the novel "Safe mIoU" metric to enhance safety evaluation of segmentation models by penalizing critical
+misclassifications overlooked by traditional mIoU.
+○​ Built SB3-based reinforcement learning models in SUMO to optimize lane selection and vehicle-to-vehicle
+communication, reducing emergency vehicle traversal times and surpassing human traffic strategies.
+●​ Published "Idd-AW: A Benchmark for Safe and Robust Segmentation of Drive Scenes in Unstructured Traffic and Adverse
+Weather" in the Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), Jan. 2024.
+ACADEMIC PROJECTS
+Machine Learning Based Characterization of Chemical Ordering in High Entropy Oxides (CMU)​ May 2025 – Present
+Advisor: Dr. Simon Gelin​
+●​ Train and evaluate equivariant ML models (e.g., Allegro, NequIP) for atomic-scale energy and force prediction to accelerate
+materials discovery.
+●​ Perform Monte Carlo simulations to equilibrate HEO-J14 configurations across temperatures and assess chemical ordering.
+TrackAnything: Multi-modal Promptable Tracking in 3D (CMU) ​
+Jan 2025 – Apr 2025
+●​ Developed an ML model to generate 3D bounding boxes from text prompts (e.g., “walking between parked vehicles”) and
+video, enabling scenario mining in autonomous driving with the Argoverse 2 dataset.
+●​ Integrated LiDAR, map, and vehicle pose data using a transformer-based architecture inspired by PromptTrack.
+●​ Enhanced scenario mining for self-driving applications by improving object tracking accuracy in urban environments.
+Real-time Pedestrian Detection and Safety Alert System (CMU)​
+Jan 2025 – Apr 2025
+●​ Designed a real-time pedestrian detection and safety alert system using NVIDIA Jetson Nano, with YOLO & MobileNet
+SSD models trained on CityPersons and Caltech datasets.
+●​ Optimized edge AI inference with quantization, pruning, and TensorRT, leveraging DeepStream for urban traffic safety.
+●​ Developed an intelligent safety alert mechanism that triggers audio-visual alerts when pedestrians enter the road during
+restricted signals and flashes warning signals for speeding vehicles at red lights in real-time.
+Smart City Sensor Network Anomaly Detection (CMU) ​
+Sep 2024 – Dec 2024
+●​ Designed a graph neural network to model relationships across IoT sensors (traffic, air quality, and energy meters) for
+anomaly detection in urban infrastructure.
+●​ Detected spatio-temporal anomalies like faulty sensors and abnormal traffic surges, improving smart city reliability.
+
+
