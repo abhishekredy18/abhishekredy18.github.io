@@ -1,0 +1,38 @@
+---
+title: "Smart City Anomaly Detection with GNNs"
+summary: "Graph neural network system for spatio-temporal anomaly detection across urban IoT sensors — traffic, air quality, and energy meters."
+role: "Graduate Project, Carnegie Mellon University"
+dates: "Sep 2024 – Dec 2024"
+tech: ["Python", "PyTorch", "Graph Neural Networks", "Time Series", "IoT"]
+tags: ["ML"]
+image: "/images/projects/smartcity.jpg"
+order: 6
+---
+
+## Problem
+
+Smart-city infrastructure runs on heterogeneous IoT sensors — traffic
+monitors, air-quality sensors, energy meters — with different data types
+and sampling rates. Faulty sensors and abnormal readings are easy to miss
+when each stream is monitored in isolation.
+
+## Approach
+
+I designed a graph neural network system that models the relationships
+across the sensor network: nodes are sensors, edges capture spatial and
+functional relationships, and time-series analysis captures temporal
+dependencies in the readings.
+
+## Architecture & Tech
+
+Graph convolutions aggregate information from neighboring sensors while
+recurrent layers model time-dependent patterns, with learned attention
+weights over sensor relationships. The model is trained multi-task —
+predicting sensor values and detecting anomalies simultaneously.
+
+## Results
+
+The system detects spatio-temporal anomalies including sensor faults,
+unusual traffic surges, abnormal air-quality readings, and irregular power
+consumption, reducing false alarms by correlating evidence across
+neighboring sensors instead of judging each stream alone.

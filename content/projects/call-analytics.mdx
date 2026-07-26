@@ -1,0 +1,49 @@
+---
+title: "Call Analytics Platform"
+summary: "Production platform turning 9,000+ support calls per month into searchable transcripts, summaries, and per-representative metrics with Whisper and a self-hosted LLM."
+role: "Junior AI/ML Engineer, SPAN Enterprises LLC"
+dates: "Dec 2025 – Present"
+tech: ["Python", "Whisper", "Speaker Diarization", "Qwen 8B", "RAG", "FastAPI", "Docker"]
+tags: ["Professional", "LLM"]
+highlights:
+  - "9,000+ calls per month, fully in-house"
+featured: true
+order: 1
+---
+
+## Problem
+
+A 50-person customer support team handles more than 9,000 calls per month.
+Team leads had no practical way to review call quality: listening to
+recordings doesn't scale, and sensitive customer conversations couldn't be
+sent to a third-party analytics service.
+
+## Approach
+
+I built a production call analytics platform that turns raw recordings into
+searchable transcripts, concise summaries, and per-representative
+performance metrics — giving leads a continuously updated view of call
+quality without listening to a single recording, and without any call data
+leaving the company.
+
+## Architecture & Tech
+
+Whisper converts every recording into accurate, timestamped transcripts,
+and speaker diarization separates representative and customer speech so
+metrics and summaries attribute statements to the right speaker. A
+self-hosted Qwen 8B LLM scores sentiment, classifies call topics, and flags
+risky calls for review.
+
+On top of the analyzed corpus sits a grounded chat assistant that answers
+natural-language questions and cites the source calls behind every answer,
+keeping responses anchored to what was actually said rather than model
+speculation.
+
+The entire platform is deployed with Docker on the company's internal
+network — transcription, LLM inference, and search all run in-house.
+
+## Results
+
+The support organization tracks call quality across 9,000+ calls per month
+through searchable transcripts and per-representative metrics, and leads
+query the corpus conversationally through the citation-backed assistant.

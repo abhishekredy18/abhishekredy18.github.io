@@ -1,0 +1,36 @@
+---
+title: "TrackAnything: Promptable 3D Tracking"
+summary: "Language-grounded 3D tracking that maps free-form text prompts to 3D bounding boxes over Argoverse 2, fusing LiDAR, map, and pose data in a transformer."
+role: "Graduate Project, Carnegie Mellon University"
+dates: "Jan 2025 – Apr 2025"
+tech: ["Python", "PyTorch", "Transformers", "LiDAR", "Argoverse 2"]
+tags: ["CV"]
+image: "/images/projects/trackanything.jpg"
+order: 4
+---
+
+## Problem
+
+Mining autonomous-driving logs for specific scenarios — "a pedestrian
+walking between parked vehicles" — normally requires hand-built filters per
+scenario. Free-form language would make scenario mining accessible and
+fast, but standard 3D trackers don't understand text.
+
+## Approach
+
+I built a language-grounded 3D tracking model that maps free-form text
+prompts to 3D bounding boxes in driving scenes, enabling text-based
+scenario mining over the Argoverse 2 dataset.
+
+## Architecture & Tech
+
+The model fuses text, LiDAR point clouds, HD map data, and vehicle pose in
+a transformer architecture inspired by PromptTrack, aligning language
+queries with multimodal sensor data. Argoverse 2 provides rich real-world
+urban driving data for training and evaluation.
+
+## Results
+
+The system demonstrates text-prompt-driven 3D object detection and
+tracking across video sequences, supporting automated identification of
+safety-critical scenarios for autonomous-vehicle testing and validation.

@@ -1,0 +1,45 @@
+---
+title: "CMS & Product Chatbot for TaxBandits and Tax990"
+summary: "Central CMS in Python and React powering content and chatbot knowledge for TaxBandits.com and Tax990.com, with RBAC, MCP tools, and a LangGraph chatbot."
+role: "Junior AI/ML Engineer, SPAN Enterprises LLC"
+dates: "Dec 2025 – Present"
+tech: ["Python", "React", "LangChain", "LangGraph", "MCP", "RunPod", "Fine-Tuning", "RBAC"]
+tags: ["Professional", "LLM"]
+highlights:
+  - "Powers two live tax-product applications"
+featured: true
+order: 2
+---
+
+## Problem
+
+TaxBandits.com and Tax990.com each need accurate product content in two
+places at once: the public product pages and the AI assistant that answers
+customer questions. Maintaining them separately meant duplicated work and
+the risk of the chatbot answering from stale knowledge.
+
+## Approach
+
+I created a central content management system in Python and React that
+powers both — product content and chatbot knowledge ship from a single
+place, so an edit made once reaches the pages and the assistant together.
+
+## Architecture & Tech
+
+Role-based access control governs users, permissions, and content
+workflows. CMS operations are also exposed as Model Context Protocol (MCP)
+tools, so AI agents can read and manage content through the same governed
+interface humans use.
+
+The customer-facing chatbot and its feedback loop are built on LangChain
+and LangGraph, with agentic tool calling wired to the TaxBandits developer
+APIs — the assistant looks up real product capabilities instead of
+guessing. Models fine-tuned and deployed on RunPod extract structured data
+from user-uploaded tax form images, feeding validated fields straight into
+the product workflows.
+
+## Results
+
+One governed system now feeds the live TaxBandits.com and Tax990.com
+applications and their AI assistant, with agent-accessible CMS operations
+and automated tax-form extraction in production.

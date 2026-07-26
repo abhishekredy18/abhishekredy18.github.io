@@ -1,0 +1,37 @@
+---
+title: "Real-time Pedestrian Detection on Jetson"
+summary: "Real-time pedestrian detection and safety alerts on NVIDIA Jetson Nano with YOLO and MobileNet SSD, optimized with quantization, pruning, and TensorRT."
+role: "Graduate Project, Carnegie Mellon University"
+dates: "Jan 2025 – Apr 2025"
+tech: ["Python", "YOLO", "MobileNet SSD", "TensorRT", "DeepStream", "NVIDIA Jetson"]
+tags: ["CV", "Edge"]
+image: "/images/projects/pedestrian.jpg"
+order: 5
+---
+
+## Problem
+
+Urban intersections need immediate, local safety intervention: alerts when
+pedestrians enter the road during restricted signals, or when vehicles
+approach at unsafe speeds. Cloud inference adds latency and cost — the
+detection has to run in real time on cheap edge hardware.
+
+## Approach
+
+I designed and deployed a real-time pedestrian detection and safety alert
+system on the NVIDIA Jetson Nano, comparing YOLO and MobileNet SSD
+architectures trained on the CityPersons and Caltech pedestrian datasets.
+
+## Architecture & Tech
+
+To reach real-time performance on resource-constrained hardware, the models
+were quantized to INT8, pruned of redundant parameters, and accelerated
+with TensorRT. The DeepStream SDK handles efficient video processing with
+frame batching and multi-stream support.
+
+## Results
+
+The system triggers audio-visual alerts when pedestrians enter the road
+during restricted signals and flashes warnings for vehicles approaching at
+unsafe speeds during red lights, with low-latency detection running
+entirely on the edge device.

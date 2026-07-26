@@ -1,0 +1,55 @@
+---
+title: "IDD-AW: Adverse-Weather Segmentation Benchmark"
+summary: "5000 RGB-NIR image pairs of Indian driving scenes in rain, fog, snow, and low light, with the Safe mIoU safety metric. Published at IEEE/CVF WACV 2024."
+role: "Research Assistant, Mobility Research (IIIT-H Affiliated) — Advisor: Dr. Girish Varma"
+dates: "May 2023 – Jun 2024"
+tech: ["Python", "PyTorch", "Semantic Segmentation", "NIR Imaging", "SB3", "SUMO"]
+tags: ["Research", "CV"]
+links:
+  paper: "https://arxiv.org/abs/2311.14459"
+  demo: "https://iddaw.github.io/"
+image: "/images/projects/iddaw.webp"
+highlights:
+  - "Published at IEEE/CVF WACV 2024"
+featured: true
+order: 3
+---
+
+## Problem
+
+Large-scale deployment of autonomous vehicles requires robustness to
+unstructured traffic and adverse weather, and must prevent unsafe
+mispredictions. Existing segmentation benchmarks focus on well-organized,
+controlled settings — not the combination of bad weather and unstructured
+driving conditions, and not safety.
+
+## Approach
+
+We built IDD-AW, a benchmark of 5000 pairs of high-quality images with
+pixel-level annotations, captured under rain, fog, low light, and snow in
+unstructured Indian driving conditions — from the highways of Hyderabad to
+the snowy hills of Manali and the foggy roads of Delhi and Ooty. Compared
+to other adverse-weather datasets, IDD-AW provides more annotated images, a
+paired Near-Infrared (NIR) image for every frame, and a larger label set
+with a 4-level label hierarchy that captures unstructured traffic.
+
+## Architecture & Tech
+
+High-resolution RGB and NIR camera sensors captured over 1 million frames;
+rigorous quality checks distilled these into the final 5000 RGB-NIR pairs,
+annotated for semantic and instance segmentation. We benchmarked
+state-of-the-art segmentation models on the dataset.
+
+We also proposed "Safe mean Intersection over Union (Safe mIoU)", a metric
+for hierarchical datasets that penalizes dangerous mispredictions the
+traditional mIoU definition does not capture.
+
+Alongside the benchmark, I built SB3-based reinforcement learning models in
+SUMO to optimize lane selection and vehicle-to-vehicle communication,
+reducing emergency vehicle traversal times.
+
+## Results
+
+The results show IDD-AW is one of the most challenging segmentation
+datasets to date. The work was published at the IEEE/CVF Winter Conference
+on Applications of Computer Vision (WACV), January 2024.
