@@ -4,12 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TrackAnything Project - Abhishek Reddy Malreddy</title>
+    <meta name="color-scheme" content="light dark">
+    <title>TrackAnything: Promptable 3D Tracking — Abhishek Reddy Malreddy</title>
+    <meta name="description" content="Language-grounded 3D tracking that maps free-form text prompts to 3D bounding boxes over Argoverse 2, fusing LiDAR, map, and pose data in a transformer.">
+    <link rel="canonical" href="https://abhishekredy18.github.io/project-trackanything.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="TrackAnything: Promptable 3D Tracking — Abhishek Reddy Malreddy">
+    <meta property="og:description" content="Language-grounded 3D tracking that maps free-form text prompts to 3D bounding boxes over Argoverse 2, fusing LiDAR, map, and pose data in a transformer.">
+    <meta property="og:url" content="https://abhishekredy18.github.io/project-trackanything.html">
+    <meta property="og:image" content="https://abhishekredy18.github.io/images/og.jpg">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="favicon.ico" sizes="48x48">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <script>
+        (function () {
+            var t = localStorage.getItem('theme') ||
+                (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', t);
+        })();
+    </script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">🌙</button>
+
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Primary">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="experience.html">Experience</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
     <a href="projects.html" class="back-link">← Back to Projects</a>
 
     <h1>TrackAnything: Multi-modal Promptable Tracking in 3D</h1>
@@ -20,16 +50,16 @@
     </div>
 
     <div class="project-image-container">
-        <img src="images/projects/trackanything.png" alt="TrackAnything 3D Tracking Visualization"
-            class="project-image">
+        <img src="images/projects/trackanything.jpg" alt="TrackAnything 3D Tracking Visualization"
+            class="project-image" width="840" height="840" loading="lazy">
     </div>
 
     <div class="content-section">
         <h2>Project Overview</h2>
         <p>
-            Developed an advanced ML model to generate 3D bounding boxes from text prompts and video for autonomous
-            driving applications. The system enables scenario mining by allowing natural language queries like
-            "walking between parked vehicles" to identify and track relevant objects in driving scenes.
+            Built a language-grounded 3D tracking model that maps free-form text prompts (e.g., "walking between
+            parked vehicles") to 3D bounding boxes in driving scenes, enabling text-based scenario mining over the
+            Argoverse 2 dataset.
         </p>
     </div>
 
@@ -77,6 +107,14 @@
             <div class="skill-item">Argoverse 2</div>
         </div>
     </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Abhishek Reddy Malreddy &middot;
+            <a href="resume/Abhishek%20Malreddy.pdf">Resume (PDF)</a> &middot;
+            <a href="https://github.com/abhishekredy18" target="_blank" rel="noopener noreferrer">GitHub</a> &middot;
+            <a href="https://www.linkedin.com/in/abhishekmalreddy/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </p>
+    </footer>
 
     <script src="js/script.js"></script>
 </body>

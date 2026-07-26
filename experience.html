@@ -4,67 +4,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experience - Abhishek Reddy Malreddy</title>
+    <meta name="color-scheme" content="light dark">
+    <title>Experience — Abhishek Reddy Malreddy</title>
+    <meta name="description" content="Junior AI/ML Engineer at SPAN Enterprises; AI intern at Vigilant; research assistant at Mobility Research (IIIT-H) with a WACV 2024 publication.">
+    <link rel="canonical" href="https://abhishekredy18.github.io/experience.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Experience — Abhishek Reddy Malreddy">
+    <meta property="og:description" content="Junior AI/ML Engineer at SPAN Enterprises; AI intern at Vigilant; research assistant at Mobility Research (IIIT-H) with a WACV 2024 publication.">
+    <meta property="og:url" content="https://abhishekredy18.github.io/experience.html">
+    <meta property="og:image" content="https://abhishekredy18.github.io/images/og.jpg">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="favicon.ico" sizes="48x48">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <script>
+        (function () {
+            var t = localStorage.getItem('theme') ||
+                (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', t);
+        })();
+    </script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
-    <a href="index.html" class="back-link">← Back to Home</a>
+    <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">🌙</button>
+
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Primary">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="experience.html" aria-current="page">Experience</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
     <h1>Experience</h1>
 
     <div class="content-section">
-        <span class="role">SPAN ENTERPRISES LLC.</span>
-        <span class="date">Junior AI/ML Engineer | Dec 2025 – Present</span>
+        <span class="role">SPAN ENTERPRISES LLC</span>
+        <span class="date">Junior AI/ML Engineer | Fort Mill, SC, USA | Dec 2025 – Present</span>
         <ul>
-            <li>Shipped a call analytics platform for a ~50-person customer support team. It tracks 3,500+ calls per
-                quarter and turns recorded calls into searchable transcripts, summaries, and per-representative
-                performance metrics.</li>
-            <li>Designed the ML pipeline: Whisper transcription, speaker diarization, and a self-hosted Qwen 8B LLM
-                that analyzes sentiment, classifies topics, and flags risks.</li>
-            <li>Deployed the platform with Docker on the company's internal network, so call data stays in-house. A
-                24/7 job pulls new FortiVoice recordings every 30 minutes.</li>
-            <li>Built a grounded chat assistant that answers questions over 2,500+ analyzed calls. It cites the source
-                calls behind each answer and declines questions the transcripts cannot support.</li>
-            <li>Created a central CMS for TaxBandits, Tax990, and WealthRabbits in Python and React. Role-based access
-                control (RBAC) governs users, permissions, product content, and chatbot knowledge sources.</li>
-            <li>Developed the product chatbot on LangChain and LangGraph. Its workflows support tool calling, search,
-                and MCP tools wired to the public TaxBandits developer APIs.</li>
-            <li>Fine-tuned models to extract structured data from user-uploaded tax form images and deployed them on
-                RunPod.</li>
+            <li>Shipped a call analytics platform for a 50-person customer support team handling 9,000+ calls per
+                month, turning recordings into searchable transcripts, summaries, and per-representative performance
+                metrics.</li>
+            <li>Designed the underlying ML pipeline with Whisper transcription, speaker diarization, and a self-hosted
+                Qwen 8B LLM to score sentiment, classify topics, and flag risky calls — plus a grounded chat assistant
+                that cites the source calls behind each answer.</li>
+            <li>Deployed the platform with Docker on the company's internal network so call data stays in-house.</li>
+            <li>Created a central CMS in Python and React powering product content and chatbot knowledge for the live
+                TaxBandits.com and Tax990.com applications, with role-based access control and CMS operations exposed
+                as MCP tools.</li>
+            <li>Developed a customer-facing chatbot and feedback loop on LangChain and LangGraph with agentic tool
+                calling wired to TaxBandits developer APIs, and fine-tuned models on RunPod to extract structured data
+                from uploaded tax form images.</li>
         </ul>
     </div>
 
     <div class="content-section">
         <span class="role">VIGILANT INC.</span>
-        <span class="date">Artificial Intelligence Engineering Intern | Jun 2025 – Aug 2025</span>
+        <span class="date">Artificial Intelligence Engineering Intern | Remote, USA | Jun 2025 – Aug 2025</span>
         <ul>
-            <li>Designed and deployed a FastAPI microservice for the GENIE ML-Deduplicator, enabling real-time
-                processing of incoming alerts through ingestion, deduplication, and health monitoring endpoints.</li>
-            <li>Built a multi-stage deduplication pipeline combining static filters, transformer embeddings, DBSCAN
-                clustering, and semantic similarity checks, integrated with Postgres, pgvector, and PostGIS to ensure
-                high-quality, unique alerts.</li>
-            <li>Automated embedding workflows with Hugging Face models and containerized the system with a multi-stage
-                Dockerfile, delivering reproducible, cloud-ready deployments for scalable production use.</li>
+            <li>Designed and deployed a FastAPI microservice powering GENIE ML Deduplicator, the core pipeline
+                ensuring Go Vigilant app users receive unique alerts in real time from 10,000+ global news and
+                intelligence sources.</li>
+            <li>Engineered a multistage deduplication pipeline combining static filtering, transformer embeddings,
+                DBSCAN clustering, and semantic similarity with PostgreSQL, pgvector, and PostGIS to detect redundant
+                event coverage and match alerts by location.</li>
+            <li>Automated embedding generation with Hugging Face models and containerized the service using a
+                multistage Dockerfile, delivering reproducible deployments powering a production consumer app.</li>
         </ul>
     </div>
 
     <div class="content-section">
         <span class="role">MOBILITY RESEARCH (IIIT-H Affiliated)</span>
-        <span class="date">Research Assistant | May 2023 – Jun 2024</span>
+        <span class="date">Research Assistant · Advisor: Dr. Girish Varma | Hyderabad, India | May 2023 – Jun 2024</span>
         <ul>
-            <li><strong>IDD-AW : Robust Semantic Segmentation for Autonomous Driving in Adverse Conditions:</strong>
+            <li><strong>IDD-AW: Robust Semantic Segmentation for Autonomous Driving in Adverse Conditions:</strong>
                 Developed the large-scale IDD-AW dataset (5000 RGB-NIR images) for semantic understanding of Indian
-                driving scenes under adverse weather.</li>
+                driving scenes under adverse weather (rain, fog, snow, lowlight).</li>
             <li>Introduced the novel "Safe mIoU" metric to enhance safety evaluation of segmentation models by
                 penalizing critical misclassifications overlooked by traditional mIoU.</li>
             <li>Built SB3-based reinforcement learning models in SUMO to optimize lane selection and vehicle-to-vehicle
                 communication, reducing emergency vehicle traversal times and surpassing human traffic strategies.</li>
-            <li>Published "Idd-AW: A Benchmark for Safe and Robust Segmentation of Drive Scenes in Unstructured Traffic
-                and Adverse Weather" in WACV, Jan. 2024.</li>
+            <li>Published <a href="https://arxiv.org/abs/2311.14459" target="_blank" rel="noopener noreferrer">"IDD-AW:
+                A Benchmark for Safe and Robust Segmentation of Drive Scenes in Unstructured Traffic and Adverse
+                Weather"</a> at the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), Jan 2024.</li>
         </ul>
     </div>
+    <footer class="site-footer">
+        <p>&copy; 2026 Abhishek Reddy Malreddy &middot;
+            <a href="resume/Abhishek%20Malreddy.pdf">Resume (PDF)</a> &middot;
+            <a href="https://github.com/abhishekredy18" target="_blank" rel="noopener noreferrer">GitHub</a> &middot;
+            <a href="https://www.linkedin.com/in/abhishekmalreddy/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </p>
+    </footer>
+
     <script src="js/script.js"></script>
 </body>
 

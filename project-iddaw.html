@@ -4,28 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IDD-AW Project - Abhishek Reddy Malreddy</title>
+    <meta name="color-scheme" content="light dark">
+    <title>IDD-AW: Adverse-Weather Segmentation (WACV 2024) — Abhishek Malreddy</title>
+    <meta name="description" content="IDD-AW: 5000 RGB-NIR image pairs of Indian driving scenes in rain, fog, snow, and low light, with the Safe mIoU metric. Published at IEEE/CVF WACV 2024.">
+    <link rel="canonical" href="https://abhishekredy18.github.io/project-iddaw.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="IDD-AW: Adverse-Weather Segmentation (WACV 2024) — Abhishek Malreddy">
+    <meta property="og:description" content="IDD-AW: 5000 RGB-NIR image pairs of Indian driving scenes in rain, fog, snow, and low light, with the Safe mIoU metric. Published at IEEE/CVF WACV 2024.">
+    <meta property="og:url" content="https://abhishekredy18.github.io/project-iddaw.html">
+    <meta property="og:image" content="https://abhishekredy18.github.io/images/og.jpg">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="favicon.ico" sizes="48x48">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <script>
+        (function () {
+            var t = localStorage.getItem('theme') ||
+                (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', t);
+        })();
+    </script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">🌙</button>
+
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Primary">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="experience.html">Experience</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
     <a href="projects.html" class="back-link">← Back to Projects</a>
 
     <h1>IDD-AW: A Benchmark for Safe and Robust Segmentation of Drive Scenes in Unstructured Traffic and Adverse Weather
     </h1>
 
     <div class="content-section">
-        <span class="date">May 2023 – Jun 2024 | Published at WACV 2024</span>
+        <span class="date">May 2023 – Jun 2024 | Mobility Research (IIIT-H Affiliated) · Advisor: Dr. Girish Varma |
+            Published at WACV 2024</span>
         <p class="project-links">
             <a href="https://iddaw.github.io/" target="_blank" rel="noopener noreferrer">🔗 Project Website</a> |
+            <a href="https://arxiv.org/abs/2311.14459" target="_blank" rel="noopener noreferrer">📄 Paper (arXiv)</a> |
             <a href="https://scholar.google.com/citations?user=KNUhL4oAAAAJ" target="_blank"
-                rel="noopener noreferrer">📄 Google Scholar</a>
+                rel="noopener noreferrer">🎓 Google Scholar</a>
         </p>
     </div>
 
     <div class="project-image-container">
-        <img src="images/projects/iddaw.png" alt="IDD-AW Dataset Visualization" class="project-image">
+        <img src="images/projects/iddaw.webp" alt="IDD-AW Dataset Visualization" class="project-image" width="661" height="653" loading="lazy">
     </div>
 
     <div class="content-section">
@@ -110,9 +142,18 @@
         <p>
             <strong>"IDD-AW: A Benchmark for Safe and Robust Segmentation of Drive Scenes in Unstructured Traffic
                 and Adverse Weather"</strong><br>
-            <em>Winter Conference on Applications of Computer Vision (WACV), January 2024</em>
+            <em>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), January 2024</em><br>
+            <a href="https://arxiv.org/abs/2311.14459" target="_blank" rel="noopener noreferrer">arXiv:2311.14459</a>
         </p>
     </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Abhishek Reddy Malreddy &middot;
+            <a href="resume/Abhishek%20Malreddy.pdf">Resume (PDF)</a> &middot;
+            <a href="https://github.com/abhishekredy18" target="_blank" rel="noopener noreferrer">GitHub</a> &middot;
+            <a href="https://www.linkedin.com/in/abhishekmalreddy/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </p>
+    </footer>
 
     <script src="js/script.js"></script>
 </body>

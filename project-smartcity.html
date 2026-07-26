@@ -4,12 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart City Project - Abhishek Reddy Malreddy</title>
+    <meta name="color-scheme" content="light dark">
+    <title>Smart City Anomaly Detection with GNNs — Abhishek Reddy Malreddy</title>
+    <meta name="description" content="Graph neural network system for spatio-temporal anomaly detection across urban IoT sensors — traffic, air quality, and energy meters.">
+    <link rel="canonical" href="https://abhishekredy18.github.io/project-smartcity.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Smart City Anomaly Detection with GNNs — Abhishek Reddy Malreddy">
+    <meta property="og:description" content="Graph neural network system for spatio-temporal anomaly detection across urban IoT sensors — traffic, air quality, and energy meters.">
+    <meta property="og:url" content="https://abhishekredy18.github.io/project-smartcity.html">
+    <meta property="og:image" content="https://abhishekredy18.github.io/images/og.jpg">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="favicon.ico" sizes="48x48">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <script>
+        (function () {
+            var t = localStorage.getItem('theme') ||
+                (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', t);
+        })();
+    </script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">🌙</button>
+
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Primary">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="experience.html">Experience</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
     <a href="projects.html" class="back-link">← Back to Projects</a>
 
     <h1>Smart City Sensor Network Anomaly Detection</h1>
@@ -20,7 +50,7 @@
     </div>
 
     <div class="project-image-container">
-        <img src="images/projects/smartcity.png" alt="Smart City IoT Network Visualization" class="project-image">
+        <img src="images/projects/smartcity.jpg" alt="Smart City IoT Network Visualization" class="project-image" width="840" height="840" loading="lazy">
     </div>
 
     <div class="content-section">
@@ -99,6 +129,14 @@
             <div class="skill-item">Data Analytics</div>
         </div>
     </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Abhishek Reddy Malreddy &middot;
+            <a href="resume/Abhishek%20Malreddy.pdf">Resume (PDF)</a> &middot;
+            <a href="https://github.com/abhishekredy18" target="_blank" rel="noopener noreferrer">GitHub</a> &middot;
+            <a href="https://www.linkedin.com/in/abhishekmalreddy/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </p>
+    </footer>
 
     <script src="js/script.js"></script>
 </body>
