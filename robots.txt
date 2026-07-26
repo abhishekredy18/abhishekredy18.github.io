@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://abhishekredy18.github.io/sitemap.xml
