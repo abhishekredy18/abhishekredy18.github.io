@@ -27,7 +27,9 @@ export function Hero() {
           width={480}
           height={480}
           priority
-          className="-mt-12 size-24 rounded-full border-4 border-bg object-cover sm:-mt-14 sm:size-28"
+          // relative z-10: the banner's dark-mode brightness filter creates a
+          // stacking context that would otherwise paint over this avatar.
+          className="relative z-10 -mt-12 size-24 rounded-full border-4 border-bg object-cover sm:-mt-14 sm:size-28"
         />
         <div className="mt-4">
           <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-accent">
