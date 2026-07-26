@@ -1,6 +1,137 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* next-themes stamps data-theme on <html>; make Tailwind's dark: variant follow it */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* ---------------------------------------------------------------------------
+   Ink neutrals with a single engineering-blue accent (all pairings AA)
+--------------------------------------------------------------------------- */
+:root {
+  --bg: #ffffff;
+  --surface: #f6f8fa;
+  --fg: #1f2328;
+  --muted: #59636e;
+  --faint: #667079;
+  --line: #e7eaee;
+  --accent: #1d4ed8;
+  --accent-strong: #1e40af;
+  --accent-soft: rgba(29, 78, 216, 0.07);
+  --ring: rgba(29, 78, 216, 0.45);
+}
+
+[data-theme="dark"] {
+  --bg: #111418;
+  --surface: #191d22;
+  --fg: #e6e8ea;
+  --muted: #a3abb3;
+  --faint: #8b939c;
+  --line: #262b31;
+  --accent: #60a5fa;
+  --accent-strong: #93c5fd;
+  --accent-soft: rgba(96, 165, 250, 0.1);
+  --ring: rgba(96, 165, 250, 0.5);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-soft: var(--accent-soft);
+  --font-sans: var(--font-inter), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+/* Smooth in-page scrolling only after user interaction (:focus-within) —
+   initial loads of /#section jump instantly instead of animating from top. */
+html:focus-within {
+  scroll-behavior: smooth;
+}
 
 body {
-  background: #ffffff;
-  color: #1f2328;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-inter), system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 200ms ease, color 200ms ease;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  body {
+    transition: none;
+  }
+}
+
+/* -------------------------------------------------------------------------
+   Case-study prose — Inter throughout, blue links, quiet code blocks
+------------------------------------------------------------------------- */
+.prose-case {
+  --tw-prose-body: var(--fg);
+  --tw-prose-headings: var(--fg);
+  --tw-prose-links: var(--accent);
+  --tw-prose-bold: var(--fg);
+  --tw-prose-counters: var(--muted);
+  --tw-prose-bullets: var(--muted);
+  --tw-prose-hr: var(--line);
+  --tw-prose-quotes: var(--muted);
+  --tw-prose-quote-borders: var(--accent);
+  --tw-prose-code: var(--fg);
+  --tw-prose-pre-code: var(--fg);
+  --tw-prose-pre-bg: var(--surface);
+  --tw-prose-th-borders: var(--line);
+  --tw-prose-td-borders: var(--line);
+  --tw-prose-captions: var(--muted);
+}
+
+.prose-case h2,
+.prose-case h3 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.prose-case a {
+  text-decoration-color: color-mix(in srgb, var(--accent) 45%, transparent);
+  text-underline-offset: 3px;
+  transition: color 150ms ease;
+}
+
+.prose-case a:hover {
+  color: var(--accent-strong);
+}
+
+.prose-case code {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.86em;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 0.3rem;
+  padding: 0.1rem 0.35rem;
+}
+
+.prose-case pre {
+  border: 1px solid var(--line);
+}
+
+.prose-case pre code {
+  background: none;
+  border: none;
+  padding: 0;
 }
