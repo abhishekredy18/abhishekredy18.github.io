@@ -21,6 +21,7 @@ function MetaRow({
 export function ProjectMeta({ project }: { project: Project }) {
   const links = [
     project.links.paper && { label: "Paper", href: project.links.paper },
+    project.slides && { label: "Slides", href: project.slides },
     project.links.demo && { label: "Website", href: project.links.demo },
     project.links.github && { label: "Code", href: project.links.github },
   ].filter(Boolean) as { label: string; href: string }[];

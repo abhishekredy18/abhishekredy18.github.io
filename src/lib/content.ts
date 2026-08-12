@@ -21,6 +21,8 @@ const projectSchema = z.object({
     })
     .default({}),
   image: z.string().startsWith("/").optional(),
+  heroVideo: z.string().startsWith("/").optional(),
+  slides: z.string().startsWith("/").optional(),
   highlights: z.array(z.string().min(1)).max(3).optional(),
   featured: z.boolean().default(false),
   order: z.number().int().default(999),
