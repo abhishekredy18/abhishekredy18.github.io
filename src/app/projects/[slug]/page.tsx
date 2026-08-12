@@ -68,7 +68,19 @@ export default async function CaseStudyPage({
         <ProjectMeta project={project} />
       </div>
 
-      {project.image ? (
+      {project.heroVideo ? (
+        <div className="mt-8 overflow-hidden rounded border border-line">
+          <video
+            src={project.heroVideo}
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="h-auto w-full"
+            aria-label={`${project.title} demo loop`}
+          />
+        </div>
+      ) : project.image ? (
         <div className="mt-8 overflow-hidden rounded border border-line">
           <Image
             src={project.image}

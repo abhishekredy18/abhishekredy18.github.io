@@ -6,6 +6,8 @@ dates: "Jan 2025 – Apr 2025"
 tech: ["Python", "YOLO", "MobileNet SSD", "TensorRT", "DeepStream", "NVIDIA Jetson"]
 tags: ["CV", "Edge"]
 image: "/images/projects/pedestrian.jpg"
+heroVideo: "/videos/pedestrian-demo-loop.mp4"
+slides: "/slides/pedestrian-detection-idl.pdf"
 order: 5
 ---
 
@@ -35,3 +37,9 @@ The system triggers audio-visual alerts when pedestrians enter the road
 during restricted signals and flashes warnings for vehicles approaching at
 unsafe speeds during red lights, with low-latency detection running
 entirely on the edge device.
+
+The full demo below shows the system at a signalized intersection: live
+pedestrian and vehicle detections, traffic-light state tracking, and
+crossing events flagged in real time.
+
+<Video src="/videos/pedestrian-demo.mp4" label="Pedestrian detection demo" />
