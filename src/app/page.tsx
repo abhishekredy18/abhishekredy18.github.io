@@ -64,8 +64,9 @@ export default function Home() {
                 I completed my MS in Artificial Intelligence Engineering at
                 Carnegie Mellon University in December 2025, with a focus on
                 Materials Science and Engineering. Before that, my research on
-                robust semantic segmentation for autonomous driving at Mobility
-                Research (IIIT Hyderabad) was published at WACV 2024.
+                robust semantic segmentation for autonomous driving with the
+                Machine Learning & Computer Vision Research group (IIIT
+                Hyderabad) was published at WACV 2024.
               </p>
               <p>
                 I care about ML that survives production: pipelines that run

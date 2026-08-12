@@ -32,12 +32,12 @@ export const experience: Experience[] = [
     bullets: [
       "Designed and deployed a FastAPI microservice powering GENIE ML Deduplicator, the core pipeline ensuring Go Vigilant app users receive unique alerts in real time from 10,000+ global news and intelligence sources.",
       "Engineered a multistage deduplication pipeline combining static filtering, transformer embeddings, DBSCAN clustering, and semantic similarity with PostgreSQL, pgvector, and PostGIS to detect redundant event coverage and match alerts by location.",
-      "Automated embedding generation with Hugging Face models and containerized the service using a multistage Dockerfile, delivering reproducible deployments powering a production consumer app.",
+      "Implemented CI/CD workflows for the containerized ML service, including automated testing, Docker builds, deployment validation, and production monitoring.",
     ],
   },
   {
     title: "Research Assistant",
-    org: "Mobility Research (IIIT-H Affiliated)",
+    org: "Machine Learning & Computer Vision Research (IIIT-H Affiliated)",
     location: "Hyderabad, India",
     dates: "May 2023 – Jun 2024",
     advisor: "Dr. Girish Varma",
