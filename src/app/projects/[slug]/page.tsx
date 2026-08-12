@@ -76,9 +76,20 @@ export default async function CaseStudyPage({
             loop
             muted
             playsInline
-            className="h-auto w-full"
+            width={848}
+            height={288}
+            className="h-auto w-full motion-reduce:hidden"
             aria-label={`${project.title} demo loop`}
           />
+          {project.image ? (
+            <Image
+              src={project.image}
+              alt={`${project.title} illustration`}
+              width={840}
+              height={840}
+              className="hidden h-auto w-full motion-reduce:block"
+            />
+          ) : null}
         </div>
       ) : project.image ? (
         <div className="mt-8 overflow-hidden rounded border border-line">

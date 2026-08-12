@@ -10,7 +10,7 @@ function ProseLink(props: React.AnchorHTMLAttributes<HTMLAnchorElement>) {
   );
 }
 
-function Video({ src, label }: { src: string; label?: string }) {
+function Video({ src, label }: { src: string; label: string }) {
   return (
     <div className="not-prose my-6 overflow-hidden rounded border border-line">
       <video
